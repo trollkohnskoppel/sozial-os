@@ -38,10 +38,12 @@ modules:
           - org.mozilla.firefox
           - com.vivaldi.Vivaldi
           - org.gnome.Loupe
-          - org.libreoffice.LibreOffice
-          - org.gimp.GIMP
+          - org.flameshot.Flameshot
           - com.rustdesk.RustDesk
           - org.kde.ktouch
+          - org.libreoffice.LibreOffice
+          - org.gimp.GIMP
+          - org.inkscape.Inkscape
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
